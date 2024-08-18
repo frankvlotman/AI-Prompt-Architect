@@ -1,6 +1,6 @@
 # AI-Prompt-Architect
 
-App to enhance the managing prompts for AI models, specifically utilizing OpenAI's GPT-4.
+App to enhance the managing of prompts for AI models, specifically utilizing OpenAI's GPT-4.
 It enables users to input prompts, receive detailed AI-generated responses, and manage responses.
 
 Key Features:
