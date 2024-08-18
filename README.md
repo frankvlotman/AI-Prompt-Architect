@@ -10,6 +10,6 @@ Response Display: The AI-generated responses are displayed in a scrollable text 
 Export to Document: Users can export the AI responses to a Word (.docx) document, ensuring easy documentation & sharing.
 Email Integration: The app integrates with Outlook to allow users to email the AI-generated responses directly, streamlining communication processes.
 User-Friendly Interface: The app features a clean and straightforward interface with labeled sections, making it accessible to users of all skill levels.
-Status Notifications: Real-time status updates inform users of the progress of their actions, such as fetching responses, exporting documents, or sending emails.
+Status Notifications: Real-time status updates inform users of the progress of their actions, such as fetching responses, exporting document, sending email or audio result.
 
 This tool optimizes interactions with AI models through effective prompt engineering and response management.
