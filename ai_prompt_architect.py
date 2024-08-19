@@ -9,7 +9,7 @@ from docx import Document
 import pyttsx3
 
 # Set the OpenAI API key #
-os.environ["OPENAI_API_KEY"] = "input AP key here"
+os.environ["OPENAI_API_KEY"] = "input API key here"
 
 # Initialize the OpenAI model
 llm = ChatOpenAI(model_name="gpt-4o-mini")
@@ -38,10 +38,7 @@ def get_response_and_display():
             # Create a new window for displaying the response
             response_window = Toplevel(root)
             response_window.title("Response")
-            response_window.geometry("600x600")  # Increased height to fit buttons without resizing
-            
-            # Set the window icon
-            response_window.iconbitmap(icon_path)
+            response_window.geometry("600x600")  # Increased height to fit buttons without resizing         
 
             # Display the response in the new window
             response_label = Label(response_window, text="Response:", font=("Arial", 14))
@@ -53,7 +50,7 @@ def get_response_and_display():
             response_text.pack(pady=10, padx=10, expand=True, fill=tk.BOTH)
             
             def download_to_docx():
-                filepath = "C:\\Users\\frank.TOWERMINT\\Desktop\\response.docx"
+                filepath = "C:\\Users\\Frank\\Desktop\\response.docx"
                 doc = Document()
                 doc.add_paragraph(content)
                 doc.save(filepath)
